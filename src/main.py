@@ -6,7 +6,7 @@ def main():
     try:
         path_list = []
         url_list = []
-        with open('../unique_list.txt') as file:
+        with open('unique_list.txt') as file:
             lines = filter(None, map(str.strip, file))
             for line in lines:
                 if is_url(line):

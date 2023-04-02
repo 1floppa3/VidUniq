@@ -29,7 +29,7 @@
 
 
 ## Usage
-- Write in the ```unique_list.txt``` paths or URLs to all videos 
+- Write in the ```src/unique_list.txt``` paths or URLs to all videos 
     that need to be uniquelized (you can specify video folders)
-- Run file ```main.py```
-- Uniquelized video will appear in the folder ```uniqualized/```.
+- Run file ```src/main.py```
+- Uniquelized video will appear in the folder ```src/uniqualized/```.
