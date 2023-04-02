@@ -13,8 +13,6 @@
   - MoviePy
   - Requests
   - Validators
-- **Code Analyzers:**
-  - Pylint
 
 
 ## Quick setup:
