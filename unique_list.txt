@@ -1,0 +1,3 @@
+https://some_invalid_site.site/api.php?wtf=invalid.mp4
+some_invalid_folder_IdnaP19f/
+some_invalid_file_dmAgo30z.mp4
