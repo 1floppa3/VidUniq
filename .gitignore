@@ -1,4 +1,4 @@
 venv/
 .idea/
 __pycache__/
-uniquelized/*.mp4
+src/uniquelized/*.mp4
