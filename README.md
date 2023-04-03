@@ -50,17 +50,17 @@ options:
   -s SOURCE_FILE, --source_file SOURCE_FILE
                         Source text file with videos to unique
 ```
-#### Example №1
+* #### Example №1
 ```bash
 # You can find example of videos_list.txt in src/
 
 py main.py -s videos_list.txt
 ```
-#### Example №2
+* #### Example №2
 ```bash
 py main.py some_video.mp4 some_folder_with_videos/ http://some_url.site/video.mp4
 ```
-#### Example №3
+* #### Example №3
 ```bash
 # You can find example of videos_list.txt in src/
 
