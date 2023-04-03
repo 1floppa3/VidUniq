@@ -1,35 +1,52 @@
 # VidUniq
 ![Language](https://img.shields.io/badge/Language-Python3.10-yellow.svg?style=flat)
+![License](https://img.shields.io/pypi/l/VidUniq?color=blueviolet)
 
 
 #### Video Uniquelizer
-###### The purpose of the script is to slightly modify the video so that it cannot be matched with the original video
+###### The purpose of this program is to slightly modify video so that it cannot be matched with the original video
 
 
 ## Technology stack:
 - **Languages:**
   - Python 3.10+
 - **Libraries:**
-  - MoviePy
-  - Requests
+  - [VidUniq](https://github.com/1floppa3/VidUniqLib)
   - Validators
 
 
 ## Quick setup:
 1. Clone a project
-2. Create venv (in Pycharm: settings -> project -> project interpreter)
-3. Upgrade pip:
     ```bash
-    pip install --upgrade pip
+   git clone https://github.com/1floppa3/VidUniq
+   ```
+2. Create venv 
+    ```bash
+    py -m venv <venv>
+   
+    # Posix platforms
+    source <venv>/bin/activate
+   
+    # Windows platfroms
+    venv\Scripts\activate
     ```
-4. Install requirements: 
+3. Install requirements: 
     ```bash
     pip install -r requirements.txt
     ```
 
 
 ## Usage
-- Write in the ```src/unique_list.txt``` paths or URLs to all videos 
-    that need to be uniquelized (you can specify video folders)
-- Run file ```src/main.py```
-- Uniquelized video will appear in the folder ```src/uniqualized/```.
+```bash
+usage: main.py [-h] [-d DESTINATION_DIR] [-s SOURCE_FILE] [videos ...]
+
+positional arguments:
+  videos                List of paths or links
+
+options:
+  -h, --help            show this help message and exit
+  -d DESTINATION_DIR, --destination_dir DESTINATION_DIR
+                        Destination folder to store uniquelized videos
+  -s SOURCE_FILE, --source_file SOURCE_FILE
+                        Source text file with videos to unique
+```
