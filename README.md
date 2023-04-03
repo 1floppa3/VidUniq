@@ -27,7 +27,7 @@
     # Posix platforms
     source <venv>/bin/activate
    
-    # Windows platfroms
+    # Windows platforms
     venv\Scripts\activate
     ```
 3. Install requirements: 
