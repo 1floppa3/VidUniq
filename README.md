@@ -22,7 +22,7 @@
    ```
 2. Create venv 
     ```bash
-    py -m venv <venv>
+    python3 -m venv <venv>
    
     # Posix platforms
     source <venv>/bin/activate
