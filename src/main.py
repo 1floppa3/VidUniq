@@ -39,10 +39,16 @@ def main():
             videos.path.append(video)
 
     if len(videos.path) + len(videos.url) != 0:
-        uniq = VideoUniquelizer(path=videos.path, url=videos.url)
-        uniq.uniquelize(args.destination_dir)
+        uniq = VideoUniquelizer(True)
+        for path in videos.path:
+            uniq.add_video_by_path(path)
+        for url in videos.url:
+            uniq.add_video_by_url(url)
+        uniq.uniquelize(colorx=1.1, gamma=1.1, speedx=1.1)  # Multiply colors, make gamma-correction, speed up video
+        uniq.save_videos(args.destination_dir)
     else:
         print('Script didn\'t get any videos :(')
+        # idea: make graphic interface to uniquelize videos here
 
 
 if __name__ == '__main__':

@@ -18,7 +18,7 @@
 ## Quick setup:
 1. Clone a project
     ```bash
-   git clone https://github.com/1floppa3/VidUniq
+   git clone https://github.com/1floppa3/VidUniq.git
    ```
 2. Create venv 
     ```bash

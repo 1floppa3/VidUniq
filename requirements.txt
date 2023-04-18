@@ -1,2 +1,2 @@
-VidUniq==1.2.1
+VidUniq==2.0.0
 validators==0.20.0
